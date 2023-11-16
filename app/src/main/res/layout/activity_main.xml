@@ -5,17 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <FrameLayout
+        android:id="@+id/Aga"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/Aga"/>
+        android:layout_height="match_parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/idNavyView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:menu="@menu/menu_navyview"/>
-
+        app:menu="@menu/menu_navyview"
+        app:labelVisibilityMode="unlabeled"/>
 
 
 </RelativeLayout>
