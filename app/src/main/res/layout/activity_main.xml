@@ -7,15 +7,17 @@
     tools:context=".MainActivity">
 
     <FrameLayout
-        android:id="@+id/Aga"
+        android:layout_above="@id/idBottomView"
+        android:id="@+id/idFrameLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/idNavyView"
+        android:id="@+id/idBottomView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/menu_navyview"
+        android:layout_alignParentBottom="true"
         app:labelVisibilityMode="unlabeled"/>
 
 
